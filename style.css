@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background-color: rgb(236, 232, 228);
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+ 
+  /* background-color: rgb(204, 177, 233); */
+  margin: auto;
+  width: 50%;
+  height: 620px;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 40px;
+  border: 2px  solid rgb(173, 132, 216);
+  box-shadow: 0px 7px 7px 0px rgb(189, 137, 245);
+  display: flex;
+}
+.container .heading{
+  width: 30%;
+    margin: 1px ;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#5c82e8;
+}
+.container .heading .image-icon{
+  margin: 5px;
+  padding: 4px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.container .heading .image-icon img{
+  height: 140px;
+  width: 90%;
+  border-radius: 10%;
+  border: 1px solid black;
+}
+.container .heading .head-a{
+  margin: 5px ;
+  padding: 4px;
+  border-top: 2px solid black;
+}
+.container .heading h2{
+  background-color: #5c82e8;
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+}
+.container .contant{
+  width: 70%;
+  margin: 1px ;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container .head-b{
+  /* margin: 5px ;
+  padding: 4px; */
+  justify-content: center;
+  align-items: center;
+}
+.container .head-b .name{
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  background-color: rgb(212, 212, 231);
+  
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* css for education section */
+.education{
+  /* margin: 2px;
+  padding: 2px; */
+  margin: 5px;
+  padding: 5px;
+}
+.education .college{
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  padding: 2px;
+}
+.education .school{
+  margin-bottom: 2px;
+  padding: 2px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.Skill{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.skill-bar{
+  margin: 5px;
+  padding: 1px;
+}
+.Skill .Tech{
+  width: 50%;
+  margin: 10pxpx;
+}
+.Skill .Soft{
+  width: 60%;
+  margin: 10px;
+}
+
+/* language section */
+.lang{
+  font-size: 17px;
+  font-weight: 400;
+  margin: 5px;
+  padding: 5px;
+}
+h2{
+  /* background-color:  #0093E9;*/
+  background-color: #5c82e8;
+  margin: 5px;
+  text-align: left;
+  padding: 1px;
+  color: black;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+i{
+  margin: 1px;
+}
